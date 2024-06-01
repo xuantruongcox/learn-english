@@ -639,6 +639,11 @@ video {
   border-color: rgb(233 233 233 / var(--tw-border-opacity));
 }
 
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;

@@ -6,7 +6,8 @@ import ReactPlayer from 'react-player'
 
 function App() {
   const session: Session = useSelector((state: RootState) => state.sources.selected)
-  const video: Video = session.sources[0]
+  const video: Video | undefined = session.sources && session.sources[0]
+  // useEffect(() => {}, [])
   return (
     <div className='flex'>
       <Sidebar />
